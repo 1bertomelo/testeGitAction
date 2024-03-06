@@ -36,7 +36,7 @@ namespace Calculadora.Tests
 
 
 		[Theory] 
-		[InlineData(3, 2, 6)]
+		[InlineData(3, 2, 6)]     
 		[InlineData(4, 3, 12)]
 		[InlineData(5, 5, 25)]
 		public void Calculadora_MultiplicarDoisNumeros_ObterMultiplicacao
