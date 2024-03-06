@@ -35,7 +35,7 @@ namespace Calculadora.Tests
 		}
 
 
-		[Theory]
+		[Theory] 
 		[InlineData(3, 2, 6)]
 		[InlineData(4, 3, 12)]
 		[InlineData(5, 5, 25)]
