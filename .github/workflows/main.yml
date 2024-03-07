@@ -19,6 +19,8 @@ jobs:
       with:
         dotnet-version: 7.x
     - name: Install dependencies
+      env:
+        LC_ALL: en_US.UTF-8
       run: dotnet restore
     - name: Build
       run: dotnet build CalculadoraApp.sln
