@@ -45,7 +45,6 @@ namespace Calculadora.Tests
 		//Objeto_Acao_ResultadoEsperado
 		{
 			int resultadoMultiplicacao = Calculadoras.Multiplicar(n1, n2);
-
 			Assert.Equal(resultado , resultadoMultiplicacao);
 
 		}
@@ -56,7 +55,7 @@ namespace Calculadora.Tests
 		  var resultadoExcecao = Assert.Throws<Exception>(()
 			  =>	Calculadoras.Divisao(10, 0));
 
-			Assert.Equal("Não \\u00E possível dividir por Zero", resultadoExcecao.Message);
+			Assert.Equal("Não é possível dividir por Zero", resultadoExcecao.Message);
 
 		} 
 
