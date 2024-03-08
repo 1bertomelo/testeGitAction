@@ -10,7 +10,7 @@
 		{
 			if (n2 == 0) throw new 
 					Exception("Não á possível dividir por Zero");
-			return n1 / n2;
+			return n1 / n2;  
 		}
 	}
 }
