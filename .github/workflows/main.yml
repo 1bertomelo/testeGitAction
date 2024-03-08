@@ -12,7 +12,8 @@ jobs:
     - uses: actions/checkout@v2
     - name: Set UTF-8 encoding for .NET
       run: |
-        export LANG=en_US.UTF-8
+        export LANG=pt_BR.UTF-8
+        export LC_ALL=pt_BR.UTF-8
         export DOTNET_SYSTEM_GLOBALIZATION_INVARIANT=false
     - name: Setup .NET Core
       uses: actions/setup-dotnet@v1
