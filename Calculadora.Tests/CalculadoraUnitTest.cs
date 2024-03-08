@@ -45,7 +45,6 @@ namespace Calculadora.Tests
 		//Objeto_Acao_ResultadoEsperado
 		{
 			int resultadoMultiplicacao = Calculadoras.Multiplicar(n1, n2);
-
 			Assert.Equal(resultado , resultadoMultiplicacao);
 
 		}
